@@ -1,22 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
 
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Rowdies", cursive;
+  background-color: white;
 }
 
 .App {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100vw;
   height: 100vh;
   flex-direction: column;
-
 }
 
 .app-header {
   text-align: center;
-  background-color: #3b5998;
+  background-color: rgb(60, 137, 215);
   color: white;
   width: 100%;
 }
@@ -30,18 +32,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 20rem;
 }
 
 .room label {
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
+  color: rgb(60, 137, 215);
 }
 
 .room input {
   width: 200px;
   height: 30px;
-  border: 2px solid #3b5998;
+  border: 2px solid rgb(60, 137, 215);
   border-radius: 6px;
   padding-left: 5px;
   font-size: 20px;
@@ -49,9 +53,6 @@ body {
   margin: 5px;
 }
 
-.room label {
-  color: #3b5998;
-}
 button {
   width: 210px;
   height: 40px;
@@ -61,9 +62,16 @@ button {
   font-size: 20px;
   text-align: center;
   margin: 5px;
-  background-color: #3b5998;
+  background-color: rgb(60, 137, 215);
   color: white;
   cursor: pointer;
+  font-family: "Rowdies", cursive;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(60, 137, 215);
+  border: 2px solid rgb(60, 137, 215);
 }
 
 .sign-out {
@@ -74,5 +82,5 @@ button {
 }
 
 .sign-out button {
-  width: 105px;
+  width: 120px;
 }

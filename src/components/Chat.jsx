@@ -12,7 +12,6 @@ import { collection } from "firebase/firestore";
 import "../styles/Chat.css";
 
 export const Chat = (props) => {
-  // const {} = props
   const [newMessage, setNewMessage] = useState("");
   const messagesRef = collection(db, "messages");
   const [messages, setMessages] = useState([]);
